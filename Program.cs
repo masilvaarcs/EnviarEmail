@@ -16,7 +16,7 @@ namespace EnviarEmail
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmEnviarEmail());
+            Application.Run(new FrmEnviarEmail());
         }
     }
 }

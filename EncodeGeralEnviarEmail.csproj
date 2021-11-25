@@ -55,16 +55,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmEnviarEmail.cs">
+    <Compile Include="FrmEnviarEmail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEnviarEmail.Designer.cs">
-      <DependentUpon>frmEnviarEmail.cs</DependentUpon>
+    <Compile Include="FrmEnviarEmail.Designer.cs">
+      <DependentUpon>FrmEnviarEmail.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmEnviarEmail.resx">
-      <DependentUpon>frmEnviarEmail.cs</DependentUpon>
+    <EmbeddedResource Include="FrmEnviarEmail.resx">
+      <DependentUpon>FrmEnviarEmail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -89,6 +89,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\img_indisponivel.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

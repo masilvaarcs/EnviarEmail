@@ -59,5 +59,15 @@ namespace EnviarEmail.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_indisponivel {
+            get {
+                object obj = ResourceManager.GetObject("img_indisponivel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
